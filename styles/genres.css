@@ -1,0 +1,149 @@
+@import url("style.css");
+@import url("platforms/genres-phone.css");
+@import url("platforms/genres-tablet.css");
+
+.films{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+} 
+
+.description{
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.text{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	
+	padding-bottom: 1em;
+	border-bottom: 1px dotted #444;
+}
+
+h1{
+	font-size: 2em;
+	margin-top:0 ;
+	padding-left: 10px;
+}
+
+.in-description{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+
+	height: inherit;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-template-areas: "tab txt";
+}
+
+.tab{
+	display: block;
+	grid-area: tab;
+	padding-left: 20px;
+	padding-top: 0;
+	margin-right: 10px;
+}
+
+.author{
+	padding-left:0;
+	grid-area: txt;
+}
+
+.block{
+	display: block;
+}
+
+.rate{
+	margin-top: end;
+	color: rgb(52, 51, 52);
+	text-align: end;
+	font-size: 5em;
+}
+
+.video{
+    margin-top: 10px;
+}
+
+@media(min-width: 1024px) and (max-width: 1920px)
+{
+	.text{
+		font-size: 1em;
+	}
+	
+	li{
+		font-size: 1em;
+	}
+	
+	.description{
+		margin-left: 1vw;
+	}
+    .films{
+        margin-left:3vw;
+        margin-right:3vw;
+    } 
+
+    .film{
+        display: flex;
+        margin-bottom: 1em;
+    } 
+
+    .picture{
+        max-width: 17vw ;
+        height: auto;
+    }
+
+    .screenshots{
+        margin-left:3vw;
+        margin-right:3vw;
+        background-color: #7D1052;
+        margin-top: 10px;
+        padding-right: 3px;
+        padding-left: 3px;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
+    .image{
+        height: 39vh;
+        width: auto;
+    }
+
+    .out-player{
+        margin-left:3vw;
+        margin-right:3vw;
+        color: white;
+        margin-top: 10px;
+        background-color: #7D1052;
+    }
+
+    
+
+    h2{
+        font-size: 2vw;
+        margin-top:0 ;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .episodes{
+        margin-left:3vw;
+        margin-right:3vw;
+        margin-top: 10px;
+        color: white;
+        background-color: #7D1052;
+    }
+
+    .video{
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+}
+

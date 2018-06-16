@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-width:1023px){
+    .content-block1{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-areas: "img in";
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .in-block1{
+        grid-area: in;
+        display: block;
+        grid-column: auto;
+        grid-row: auto;
+        margin-left:1em;
+        height: 100% inherit;
+        background-color: white;
+        height: left;
+    }
+
+    .h3{
+        text-align: center;
+        font:60% arial;
+    }
+
+    .text{
+        text-align: justify ;
+        font-size:1.2em;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+    .content-block2{
+        grid-area: info;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-areas: "info info info";
+    }
+}

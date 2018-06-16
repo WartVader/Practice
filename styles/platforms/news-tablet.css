@@ -1,0 +1,11 @@
+@media(min-width: 768px) and (max-width: 1023px)
+{
+
+    .news{
+        font-size: 2em;
+    }
+    
+    .user-comment{
+        grid-template-columns: 1.5vw 60%;
+    }
+}

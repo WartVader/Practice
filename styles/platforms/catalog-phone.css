@@ -1,0 +1,27 @@
+@media(max-width: 767px)
+{
+    #content{
+        padding-top: 70px;
+    }
+
+    .block1{
+        grid-template-areas: "in" "in" "in" "in" "in";
+    }
+
+    .block2{
+        grid-template-areas: "in" "in" "in" "in" "in";
+    }
+
+    .block3{
+        grid-template-areas: "in" "in" "in" "in" "in";
+    }
+
+    .text{
+        grid-area: txt;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font: 5em Tahoma;
+
+    }
+}

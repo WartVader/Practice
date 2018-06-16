@@ -1,0 +1,44 @@
+@media (max-width: 767px)
+{
+    .block1{
+        color: rgb(41, 40, 41);
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .image-block1{
+        grid-area: img;
+        width: calc(100% - 4px);
+        border-top: 20px solid #7D1052; 
+        border-bottom: 20px solid #7D1052; 
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;  
+    }
+
+    .content-block1{
+        color: rgb(41, 40, 41);
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: "img" "in";
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .in-block1{
+        margin-top: 10px;
+    }
+
+    .text{
+        color: rgb(41, 40, 41);
+        text-align: justify ;
+        font-size:1.5em;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .content-block2{
+        grid-area: info;
+        display: grid;
+        grid-template-areas: "info" "info" "info";
+    }
+}

@@ -1,0 +1,61 @@
+@import url("style.css");
+@import url("platforms/news-phone.css");
+@import url("platforms/news-tablet.css");
+
+
+.comments{
+    border-left: 10px solid rgb(90, 12, 62); 
+    width: inherit;
+    padding: 15px;
+    padding-top: 0px;
+    margin-left: 40px;
+    margin-top: 40px;
+    background-color: rgb(143, 19, 96);
+}
+
+.news{
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: #7D1052;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.avatar{
+    width: 3vw;
+    grid-area: img;
+}
+
+.comment{
+    padding-left: 20px;
+    grid-area: txt;
+}
+
+.user-text{
+    width: 50%;
+    margin-top: 10px;
+}
+
+.user-comment{
+    display: grid;
+    padding-top: 15px;
+    grid-template-columns: 3vw 60%;
+    grid-template-areas: "img txt";
+}
+
+@media(min-width: 1024px) and (max-width: 1920px)
+{
+    .news{
+        font-size: 1em;
+    }
+    .user-comment{
+        grid-template-columns: 3vw 60%;
+    }
+    
+}
+
+
+

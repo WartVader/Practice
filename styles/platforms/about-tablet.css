@@ -1,0 +1,42 @@
+@media (min-width:768px) and (max-width: 1023px)
+{   
+    .company{
+        grid-template-areas: "txt1" "txt2";
+    }
+
+    .text1{
+        grid-area: txt1;
+        font-size: 1.2em;
+        text-align: justify;
+        margin-bottom:1em;
+    }
+
+    .text2{
+        grid-area: txt2;
+        font-size: 1.2em;
+        text-align: justify;
+    }
+
+    .workers{
+        border-right: 2px solid #7D1052; 
+        border-left: 2px solid #7D1052; 
+        border-top: 40px solid #7D1052; 
+        border-bottom: 20px solid #7D1052; 
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        margin-bottom: 10px;
+    }
+
+    .how{
+        background-color: rgb(63, 8, 42);
+        border-color: rgb(63, 8, 42);
+    }
+
+    .another-information{
+        grid-template-areas: "workers" "how";
+    }
+
+}

@@ -1,0 +1,76 @@
+@media(min-width: 768px) and (max-width: 1023px)
+{
+	.text{
+		font-size: 1.2em;
+	}
+	
+	li{
+		font-size: 1.2em;
+	}
+	
+    #content{
+        padding-top: 40px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .films{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin: auto;
+    } 
+
+    .film{
+        display: grid;
+        grid-template-areas: "pic" "txt";
+        margin-bottom: 1em;
+    } 
+
+    .picture{
+        grid-area: pic;
+
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+		border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+		border-top: 40px solid #7D1052;
+		border-bottom: 20px solid #7D1052;
+
+        width: calc(100% - 4px);
+    }
+
+    .screenshots{
+        background-color: #7D1052;
+        margin-top: 10px;
+        padding-right: 3px;
+        padding-left: 3px;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
+    .image{
+        height: 40vh;
+        width: auto;
+    }
+
+    .out-player{
+        color: white;
+        margin-top: 10px;
+        background-color: #7D1052;
+    }
+
+    h2{
+        font-size: 2vh;
+        margin-top:0 ;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .episodes{
+        margin-top: 10px;
+        color: white;
+        background-color: #7D1052;
+    }
+}

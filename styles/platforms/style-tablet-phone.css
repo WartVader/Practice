@@ -1,0 +1,30 @@
+@media(max-width: 1023px)
+{
+    input {
+        font-size: 1.2em;
+    }
+
+    .menu{
+        height: 70px;
+    }
+
+    .element{
+        font-size: 1.3em;
+        color: rgb(255, 255, 255);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        /* border-right: 1px solid rgb(34, 34, 34); */
+    }
+
+    .header-logo{
+        width: 100vw ;
+        height: auto;
+    }
+
+    #content{
+        min-height: 100vh;
+        margin: auto;
+        padding-top:20px;
+    }
+}

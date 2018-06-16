@@ -1,0 +1,60 @@
+@import url("platforms/style-tablet-phone.css");
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.MyBg{
+    background-color: rgb(44, 0, 27);
+}
+
+.bg-news{
+    background-color: rgb(61, 0, 38);
+}
+
+.fool{
+    width:100vw;
+}
+
+.footer{
+    height: 3em;
+}
+
+.container{
+    background-color: white;
+    padding-top:4em;
+    min-height: 100vh;
+}
+
+.OneOfThree{
+    width: 85%;
+}
+
+.parallax-window {
+    min-height: 40em;
+    background: transparent;
+}
+
+.text{
+    text-align: justify ;
+}
+
+.dark-theme{
+    color: white;
+}
+
+.hello{
+    margin-bottom: 3em;
+}
+
+.news{
+    padding-bottom: 100px;
+}
+
+.image-block-card{
+    min-height: 55vh;
+}
+
+h1{
+    margin-bottom: 20px;
+}

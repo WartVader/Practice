@@ -1,0 +1,32 @@
+@media(min-width: 768px) and (max-width: 1023px)
+{
+	#content{
+        padding-top: 70px;
+    }
+	
+    .block1{
+        grid-template-columns: 20% 20% 20% 20% 20%;
+		grid-template-areas: "in in in in in";
+    }
+
+    .block2{
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-areas: "in in in in in";
+    }
+
+    .block3{
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        grid-template-areas: "in in in in in";;
+    }
+
+    .text{
+        grid-area: txt;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font: 2vw Tahoma;
+
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
