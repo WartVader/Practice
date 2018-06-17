@@ -1,20 +1,22 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+    <meta name="author" content="Юзаев Ильфат">
+    <meta name="description" content="Robot">
+    <meta name="keywords" content="фильмы, сериалы, кино, мультики, мультфильмы, мультипликация, смотреть онлайн">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/Home.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
     <title>Robot</title>
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-dark MyBg fixed-top">
+    <!-- Меню -->
+    <nav class="navbar navbar-expand-lg navbar-dark MyBg fixed-top menu">
         <a class="navbar-brand" href="#">Robot</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -28,44 +30,51 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Жанры</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Аниме</a>
-                        <a class="dropdown-item" href="#">Биография</a>
-                        <a class="dropdown-item" href="#">Боевик</a>
-                        <a class="dropdown-item" href="#">Военный</a>
-                        <a class="dropdown-item" href="#">Детектив</a>
-                        <a class="dropdown-item" href="#">Документальный</a>
-                        <a class="dropdown-item" href="#">Драмма</a>
-                        <a class="dropdown-item" href="#">Исторический</a>
-                        <a class="dropdown-item" href="#">Комедия</a>
-                        <a class="dropdown-item" href="#">Мелодрамма</a>
-                        <a class="dropdown-item" href="#">Мюзикл</a>
-                        <a class="dropdown-item" href="#">Приключение</a>
-                        <a class="dropdown-item" href="#">Триллер</a>
-                        <a class="dropdown-item" href="#">Ужасы</a>
-                        <a class="dropdown-item" href="#">Фантастика</a>
+                        <a class="dropdown-item disabled" href="#">Аниме</a>
+                        <a class="dropdown-item disabled" href="#">Биография</a>
+                        <a class="dropdown-item disabled" href="#">Боевик</a>
+                        <a class="dropdown-item disabled" href="#">Военный</a>
+                        <a class="dropdown-item disabled" href="#">Детектив</a>
+                        <a class="dropdown-item disabled" href="#">Документальный</a>
+                        <a class="dropdown-item" href="pages/genres/drama/drama.html">Драма</a>
+                        <a class="dropdown-item disabled" href="#">Исторический</a>
+                        <a class="dropdown-item disabled" href="#">Комедия</a>
+                        <a class="dropdown-item disabled" href="#">Мелодрамма</a>
+                        <a class="dropdown-item disabled" href="#">Мюзикл</a>
+                        <a class="dropdown-item disabled" href="#">Приключение</a>
+                        <a class="dropdown-item disabled" href="#">Триллер</a>
+                        <a class="dropdown-item disabled" href="#">Ужасы</a>
+                        <a class="dropdown-item disabled" href="#">Фантастика</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Новости<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="pages/news.html">Новости<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">О нас<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="pages/about.html">О нас<span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="поиск" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Поиск</button>
+                <input class="form-control mr-sm-2" type="search" placeholder="Поиск фильмов" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Поиск</button>
             </form>
         </div>
     </nav>
-    <div class="parallax-window xs" data-parallax="scroll" data-speed = "0.5" data-image-src="assets/images/breaking bad_parallax.jpg"></div>
-    <div class = "container">
-        <h1 class="display-2 text-center hello">Добро пожаловать. Снова</h1>
+    <!-- Конец меню -->
 
-        <h1 class = "bg-news dark-theme display-4 text-center">Новость дня</h1>
+    <!-- Параллакс эффект -->
+    <div class="parallax-window xs" data-parallax="scroll" data-speed = "0.5" data-image-src="https://pp.userapi.com/c543101/v543101331/343b3/QjSi2mCBAP8.jpg"></div>
+    <!--<div class="parallax-window xs" data-parallax="scroll" data-speed = "0.5" data-image-src="http://aria-art.ru/0/L/Leonardo%20da%20Vinchi.%20Tajnaja%20vecherja/1.jpg"></div>-->
+    <!-- Конец параллакс эффекта -->
+
+    <div class = "top-of-the-parallax position-absolute hello"><h1 class="display-1 text-center hello">Добро пожаловать. Снова.</h1></div>
+    
+    <!-- Главный контейнер -->
+    <div class = "container main">
+        <h1 class = "MyBg dark-theme display-4 text-center">Новость дня</h1>
 
         <div class = "row news">
-            <div class="col-md-6"><img class = "border border-secondary OneOfThree" src = "assets/images/DeadPool2.jpg"></div>
+            <div class="col-md-6"><img class = "border border-secondary" src = "assets/images/DeadPool2.jpg"></div>
             <div class="col-md-6">
                 <div class = "text">
                     <h3 class = "text-center">«Дэдпул 2» лишился одного из главных злодеев </h3><hr>Джефф Снайдер с сайта Tracking Board во время YouTube-передачи Meet The Press рассказал, что из «Дэдпула 2» были вырезаны все сцены со злодеем Черным Томом в исполнении актера Джека Кеси. На данный момент подтверждения информации нет, но Снайдер часто оказывается прав.
@@ -77,7 +86,7 @@
             </div>
         </div>
 
-        <h1 class = "bg-news dark-theme display-4 text-center">Новости недели</h1>
+        <h1 class = "MyBg dark-theme display-4 text-center">Новости недели</h1>
 
         <div class = "row news">
             <div class="col-md-4">
@@ -98,7 +107,7 @@
             </div>
             <div class="col-md-4">
                 <div class = "card">
-                    <div class = "image-block-card"><img class = "card-img-top" src = "assets/images/mrrobot.jpg"></div>
+                    <div class = "image-block-card"><img class = "card-img-top" src = "http://fs.kinomania.ru/file/film/c/69/c69c42475b413a1be71f510a6a5b2725.jpeg"></div>
                     <div class = "card-body">
                         <p class = "card-text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
@@ -106,6 +115,9 @@
             </div>
         </div>
     </div>
+    <!-- Конец контейнер -->
+
+
     <!-- Parallax script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="script/parallax/parallax.js"></script>

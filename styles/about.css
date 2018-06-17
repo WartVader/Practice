@@ -2,72 +2,10 @@
 @import url("platforms/about-tablet.css");
 @import url("platforms/about-phone.css");
 
-.company{
-	display: grid;
-	margin: 10px;
-	background-color: #7D1052;
-	color: white;
-	padding-right: 8px;
-	padding-left: 8px;
+
+
+.MyBg{
+    color: white;
+    background-color: maroon;
 }
-
- .workers{
-	grid-area: workers;
-	background-color: rgb(94, 12, 62);
-	border-color: rgb(94, 12, 62);
-	color: white;
-	padding-right: 8px;
-	padding-left: 8px;
-}
-
-.how{
-	grid-area: how;
-	color: white;
-
-	padding-right: 8px;
-	padding-left: 8px;
-}
-
-.another-information{
-	font-size: 1.1em;
-	display: grid;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-
-@media(min-width: 1024px)
-{
-    .company{
-        grid-template-areas: "txt1 txt2";
-    }
-
-    .text1{
-        grid-area: txt1;
-        margin-right: 50px;
-        font-size: 1.2em;
-        text-align: end;
-    }
-
-    .text2{
-        grid-area: txt2;
-        font-size: 1.2em;
-    }
-
-    .workers{
-        margin-right: 25px;
-    }
-
-    .how{
-        background-color: rgb(94, 12, 62);
-        border-color: rgb(94, 12, 62);
-        color: white;
-        margin-left: 25px;
-    }
-
-    .another-information{
-        grid-template-columns: 50% 50%;
-        grid-template-areas: "workers how";
-    }
-}
-
 

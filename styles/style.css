@@ -1,15 +1,33 @@
 @import url("platforms/style-tablet-phone.css");
 
+
+
+
+.menu{
+    margin-bottom: 55px;
+}
+
+.top-of-the-parallax{
+    width: 100%;
+    background-color: none;
+    bottom: 0; top: 200px; left: 0; 
+}
+
+.color-white{
+    color: white;
+}
+
+.home{
+    color:rgb(44, 0, 27);
+}
+
 body{
     background-color: rgb(238, 238, 238);
 }
 
-.MyBg{
-    background-color: rgb(44, 0, 27);
-}
-
-.bg-news{
-    background-color: rgb(61, 0, 38);
+::selection {
+    background-color: rgb(0, 10, 29);
+    color: rgb(255, 255, 255);/* Safari, Chrome, Opera */
 }
 
 .fool{
@@ -20,17 +38,18 @@ body{
     height: 3em;
 }
 
-.container{
+.main{
     background-color: white;
     padding-top:4em;
     min-height: 100vh;
 }
 
-.OneOfThree{
-    width: 85%;
+img{
+    width: 100%;
 }
 
 .parallax-window {
+    margin-top: 56px;
     min-height: 40em;
     background: transparent;
 }
@@ -57,4 +76,8 @@ body{
 
 h1{
     margin-bottom: 20px;
+}
+
+.jumbotron{
+    border-radius: 0px;
 }

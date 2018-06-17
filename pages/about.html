@@ -1,62 +1,87 @@
 <!DOCTYPE html> 
 <html>
 <head>
-    <meta content="text/html" charset="utf-8">
     <meta name="author" content="Юзаев Ильфат">
     <meta name="description" content="Robot">
     <meta name="keywords" content="фильмы, сериалы, кино, мультики, мультфильмы, мультипликация, смотреть онлайн">
-    <meta name="viewport" content="width=device-width">
-    <link rel="shortcut icon" href="../images/icon.png">
-    <link rel="stylesheet" href="../style/about.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/about.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
     <title>Robot</title>
 </head>
 
 <body>
-    <header>
-        <div class = "menu">
-            
-            <div class = "user"></div>
-
-            <a href="../index.html"><div class = "element"><b>Главная страница</b></div></a>
-
-            <a href="catalog.html"><div class = "element"><b>Каталог жанров</b></div></a>
-
-            <a href="news.html"><div class = "element"><b>Наши новости</b></div></a>
-
-            <a class = "here" href="about.html"><div class = "element here"><b>О наc</b></div></a>
-            
+    <!-- Меню -->
+    <nav class="navbar navbar-expand-lg navbar-dark MyBg fixed-top">
+        <a class="navbar-brand" href="../index.html">Robot</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Главная <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Жанры</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item disabled" href="#">Аниме</a>
+                        <a class="dropdown-item disabled" href="#">Биография</a>
+                        <a class="dropdown-item disabled" href="#">Боевик</a>
+                        <a class="dropdown-item disabled" href="#">Военный</a>
+                        <a class="dropdown-item disabled" href="#">Детектив</a>
+                        <a class="dropdown-item disabled" href="#">Документальный</a>
+                        <a class="dropdown-item" href="genres/drama/drama.html">Драма</a>
+                        <a class="dropdown-item disabled" href="#">Исторический</a>
+                        <a class="dropdown-item disabled" href="#">Комедия</a>
+                        <a class="dropdown-item disabled" href="#">Мелодрамма</a>
+                        <a class="dropdown-item disabled" href="#">Мюзикл</a>
+                        <a class="dropdown-item disabled" href="#">Приключение</a>
+                        <a class="dropdown-item disabled" href="#">Триллер</a>
+                        <a class="dropdown-item disabled" href="#">Ужасы</a>
+                        <a class="dropdown-item disabled" href="#">Фантастика</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="news.html">Новости<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">О нас<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="поиск" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Поиск</button>
+            </form>
         </div>
-    </header>
+    </nav>
+    <!-- Конец меню -->
 
-    <div class = "logo">
-            <img class = "header-logo" src = "../images/Header2.png">
-    </div>
-
-    <div id="content">
-        <div class = "company anti-border-main">
-            <div class = "text1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis feugiat justo. Nunc ante est, congue sed tempor ut, pulvinar a nulla. 
-                Nam risus risus, sodales vitae gravida id, faucibus sed nibh. Quisque at tincidunt eros, vel consequat odio. Fusce non orci vitae leo tincidunt mollis vel sit amet sapien. 
-                Phasellus sit amet ligula et mauris rutrum pellentesque sit amet ut sapien. Cras faucibus vulputate semper.
-                Integer et mattis augue. Ut ac sapien in nisl pharetra convallis. Quisque lectus nulla, faucibus quis iaculis sed, gravida vitae massa. 
-                Praesent euismod scelerisque ex quis interdum. Phasellus eleifend ex dolor, vitae iaculis ante porta eget. Nulla tristique consectetur pellentesque. 
-                Morbi et sagittis odio. Sed id dignissim tellus. Cras sollicitudin tortor vitae nulla lacinia, sit amet tempus nunc laoreet. Aenean eu magna et nulla dignissim ultrices. 
-                Praesent maximus scelerisque ligula, in porttitor lorem dictum non. Nulla tempor lacus sit amet velit ultricies, vel rutrum neque dictum. 
-                Aliquam massa metus, tincidunt in sem vitae, varius gravida dui.
-            </div>
-            <div class = "text2">
-                Nulla sagittis malesuada lobortis. Donec magna magna, pretium id accumsan et, interdum eu nibh. Sed ac nisi congue eros feugiat feugiat et nec nunc. 
-                Suspendisse dictum orci vitae varius dapibus. Praesent pharetra lacus eros, eget pharetra est consectetur et. Fusce a condimentum neque, scelerisque bibendum diam.
-                Integer odio leo, pulvinar vitae mi vel, ultrices pharetra nunc. Sed quis ante eleifend, consequat orci at, vestibulum odio. Sed felis leo, auctor at blandit sed, pulvinar a 
-                ipsum. Sed ut vehicula dui, in maximus est. Donec nec ullamcorper magna. Aenean ut quam sed nulla accumsan aliquam. Sed fermentum dolor tortor, eu faucibus ante aliquet nec. 
-                Praesent vitae nisl non dolor congue vehicula. Pellentesque varius quam lacus, a luctus turpis maximus sed.
-                Cras semper malesuada mauris. Praesent sodales justo ut arcu blandit iaculis. Vestibulum sodales lectus sit amet bibendum venenatis. Phasellus pharetra et libero sed facilisis. 
-                Nulla lectus ante, euismod dictum pharetra nec, venenatis sit amet metus. Nam justo turpis, viverra lacinia malesuada nec, cursus eu urna. Ut non finibus dolor.
+    <!-- Параллакс эффект -->
+    <div class="parallax-window" data-parallax="scroll" data-speed = "0.5" data-image-src="http://liveangarsk.ru/files/images/dfd4078929ea717318c0908dbf6201f7-cover1.jpg"></div>
+    <!-- Конец параллакс эффекта -->    
+    
+    <div class = "container main">
+        <div class = "jumbotron">
+            <div class = "container lead text">
+                <h1 class = "display-1">Robot</h1><hr>
+                <p><b>Robot</b> - это новая площадка для просмотра ваших любимых фильмов, сериалов, мультипликации, и все в этом духе.</p>
+                <p>Всего за 3$ вы можете оформить подписку на месяц, и вам будут доступны 1000 фильмов и сериалов различных жанров.<p>
+                <p>Покупая у нас подписку вы поддерживаете не только нас, но также и помогаете студиям продолжать снимать ваши любимые фильмы и сериалы!</p>
+                <p>Знайте: наш сайт существет только благодаря вам!</p>
             </div>
         </div>
-        <div class = "another-information">
-            <div class = "workers border-main">
-                В нашей Wart Company работают:
+
+
+        <div class = "d-flex justify-content-between">
+            <div class = "border lead container">
+                <p>В нашей Wart Company работают:</p>
                 <ul>
                     <li>Юзаев Ильфат - Гендиректор, царь этого сайта, так сказатб</li>
                     <li>Гызынбаев Нурандыг - Очень плохой дизайнер, но очень хороший человек</li>
@@ -64,8 +89,8 @@
                     <li>Гызынбаев Ильфат - Кодер-прокрастинатор</li>
                 </ul>
             </div>
-            <div class = "how border-main">
-                Если вы хотите вступить в нашу свиту, то вам нужно:
+            <div class = "border lead container">
+                <p>Если вы хотите вступить в нашу свиту, то вам нужно:</p>
                 <ul>
                     <li>Быть хорошим в своей профессии</li>
                     <li>Написать свое резюме</li>
@@ -75,14 +100,15 @@
                 </ul>
             </div>
         </div>
+
     </div>
-    <footer>
-        <div  class = "footer">
-            &copy; Wart Company 
-            <div class = "contacs">
-                <div class = "tel">Наш контактный номер: 8-912-745-45-91</div>
-                <div class = "mail">Наша почта: wartvader@gmail.com</div>
-            </div>
-        </div>
-    </footer>
+    
+    <!-- Parallax script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../../script/parallax/parallax.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>

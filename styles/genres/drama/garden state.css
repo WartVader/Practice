@@ -1,0 +1,47 @@
+@import url("../../style.css");
+/* @import url("platforms/genres-phone.css");
+@import url("platforms/genres-tablet.css"); */
+
+
+img.d-block{
+    margin: auto;
+    height: 45vh;
+    width: auto;
+}
+
+.MyBg{
+    color: white;
+    background-color: #28943f;
+}
+
+h1.MyBg, .MyBg.carousel-inner{
+    color: white;
+    background-color: #238136;
+    text-align: center;
+}
+
+.MyColor{
+    color: black;
+}
+
+.film{
+    margin-top: 20px;
+} 
+
+h1{
+	font-size: 2em;
+	margin-top:0 ;
+	padding-left: 10px;
+}
+
+.block{
+	display: block;
+}
+
+.rate{
+	margin-top: end;
+	color: rgb(52, 51, 52);
+	text-align: end;
+    font-size: 5em;
+    top:0; left:0;
+}
